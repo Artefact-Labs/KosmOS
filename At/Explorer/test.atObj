@@ -1,5 +1,0 @@
-Data count = 1
-
-Method increment () {
-   this.count++
-}

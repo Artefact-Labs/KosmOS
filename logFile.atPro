@@ -1,0 +1,365 @@
+{
+ "type": "folder",
+ "pjType": "pc - software",
+ "name": "KosmOS",
+ "iconA": "folderA",
+ "version": "0.0.1",
+ "description": "An operating System based on web technologies.",
+ "author": "Artefact-Team",
+ "child": [
+  {
+   "type": "folder",
+   "name": "At",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "Explorer.at",
+     "iconA": "at"
+    },
+  {
+   "type": "folder",
+   "name": "Explorer",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "file",
+     "name": "StartMenu.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "TaskBar.at",
+     "iconA": "at"
+    },
+  {
+   "type": "folder",
+   "name": "StartMenu",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "file",
+     "name": "ImageMenuBox.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "LogoMenuBox.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "TextMenuBox.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "MenuBox.at",
+     "iconA": "at"
+    },
+   ]
+  },
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "UtilsIte,s",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+  },
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Js",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.js",
+     "iconA": "js"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Resources",
+   "iconA": "folderC",
+   "col": "pink",
+   "child": []
+  },
+  {
+   "type": "folder",
+   "name": "Structure",
+   "iconA": "folderD",
+   "col": "green",
+   "deco": "pjStruc",
+   "child": [
+    {
+     "type": "file",
+     "name": "Adder.aat",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Packager.apm",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Router.art",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Store.as",
+     "child": []
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Style",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.css",
+     "iconA": "css"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Version",
+   "iconA": "folderD",
+   "deco": "version",
+   "child": [
+    {
+     "type": "folder",
+     "name": "Android",
+     "iconA": "folderE",
+     "deco": "androidOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "i-Phone",
+     "iconA": "folderE",
+     "deco": "ios",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "MacOs",
+     "iconA": "folderE",
+     "deco": "appelOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Ubuntu",
+     "iconA": "folderE",
+     "deco": "ubuntuOs",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Web",
+     "iconA": "folderE",
+     "deco": "browser",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Windows",
+     "iconA": "folderE",
+     "deco": "windowsOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "setting": [
+  {
+   "name": "Tuto"
+  }
+ ],
+ "appId": "com.whatsup.artefact",
+ "designState": {
+  "main_at": {
+   "height": 687,
+   "width": 1102,
+   "dark": false
+  },
+  "Explorer_at": {
+   "height": 690,
+   "width": 1116,
+   "dark": false
+  },
+  "TaskBar_at": {
+   "height": 39,
+   "width": 1112,
+   "dark": false
+  },
+  "StartMenu_at": {
+   "height": 478,
+   "width": 728,
+   "dark": false
+  },
+  "HoverItem_at": {
+   "height": 431,
+   "width": 500,
+   "dark": false
+  },
+  "ImageMenuBox_at": {
+   "height": 86,
+   "width": 109,
+   "dark": false
+  },
+  "LogoMenuBox_at": {
+   "height": 94,
+   "width": 129,
+   "dark": false
+  },
+  "TextMenuBox_at": {
+   "height": 112,
+   "width": 109,
+   "dark": false
+  },
+  "FlowMenuBox_at": {
+   "height": 207,
+   "width": 407,
+   "dark": false
+  }
+ },
+ "icon": "file:///C:/Users/DannickStark/Downloads/abstract-2468874_1920.jpg"
+}
