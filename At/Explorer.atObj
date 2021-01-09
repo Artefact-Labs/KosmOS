@@ -1,0 +1,7 @@
+Property fontImage = "https://picsum.photos/2000?random=1"
+	
+Data startMenuShowed = false
+	
+Method togelStartMenu() {
+	this.startMenuShowed = !this.startMenuShowed
+}

@@ -1,0 +1,121 @@
+
+Item{
+  id: "item0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Item{
+      id: "itemitem02",
+      width: 100,
+      height: 33,
+      x: 0,
+      y: 0,
+      child: [
+        Rectangle{
+          id: "rectangleitem01",
+          width: 100,
+          height: 33,
+          y: 0,
+          left: 0,
+          right: 0,
+          color: "#2c84b3",
+          child: [
+            Rectangle{
+              id: "rectanglerectangleitem011",
+              width: 100,
+              height: 100,
+              x: 3,
+              y: 3,
+              right: 60,
+              left: 3,
+              top: 3,
+              bottom: 3,
+              child: [
+                TextEdit{
+                  id: "texteditrectanglerectangleitem0111",
+                  width: 100,
+                  height: 33,
+                  x: 0,
+                  y: 0,
+                  right: 2,
+                  left: 2,
+                  top: 2,
+                  bottom: 2,
+                  value: "<#titel#>",
+                  event: [
+                    KeyEvent{
+                      section: "whitespace",
+                      name: "enter",
+                      action: "<#disableEdit#>"
+                    }
+                  ]
+                }
+              ]
+            },
+            Icon{
+              id: "iconrectangleitem013",
+              width: 49,
+              height: 100,
+              x: 358,
+              top: 0,
+              bottom: 0,
+              right: 0,
+              color: "#fff",
+              iconName: "ion-md-menu",
+              size: 20
+            }
+          ],
+          top: 0,
+          bottom: 0,
+          modelIf: "<#editName#>"
+        },
+        Text{
+          id: "textitemitem023",
+          width: 100,
+          height: 100,
+          x: 0,
+          y: 0,
+          right: 10,
+          left: 10,
+          top: 0,
+          bottom: 0,
+          value: "<#titel#>",
+          verticalAlign: "center",
+          fontSize: 15
+        },
+        MouseArea{
+          id: "mouseareaitemitem025",
+          width: 100,
+          height: 100,
+          x: 0,
+          y: 0,
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 0,
+          onClicked: "<#switchToEdit#>"
+        }
+      ],
+      left: 0,
+      right: 0
+    },
+    Slot{
+      id: "slotitem03",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      name: "content",
+      right: 0,
+      left: 0,
+      top: 33,
+      bottom: 0
+    }
+  ]
+},

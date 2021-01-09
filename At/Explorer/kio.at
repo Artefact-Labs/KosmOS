@@ -1,0 +1,31 @@
+
+Rectangle{ 
+ 
+ 
+  child: [
+    Text{
+     
+      align: "center",
+      color: "#09ea23",
+      fontSize: 20,
+      height: 32,
+      id: "textimagerec01",
+      value: "<#count#>",
+      width: "auto",
+      anchors.verticalCenter: 0,
+      anchors.horizontalCenter: 0,
+      onClicked: "onClo"
+    }
+  ],
+  color: "#29ab80",
+  height: 100,
+  id: "rec",
+  "onClicked": "increment",
+  width: "auto",
+  x: 0,
+  y: 0,
+  radius: 50,
+  borderColor: "#0eeabb",
+  border: 2
+}, 
+ 

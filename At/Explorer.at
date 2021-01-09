@@ -1,0 +1,63 @@
+
+Rectangle{
+  id: "rectangle0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    NetworkImage{
+      id: "networkimagerectangle01",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      source: "<#fontImage#>",
+      fillMode: "preserveAspectCrop"
+    },
+    Object{
+      id: "taskbarrectangle03",
+      width: 100,
+      height: 41,
+      y: 649,
+      name: "TaskBar",
+      bottom: 0,
+      left: 0,
+      right: 0,
+      onTogelSMenu: "<#togelStartMenu#>"
+    },
+    Transition{
+      id: "transitionrectangle06",
+      width: "51%",
+      height: "70%",
+      x: 0,
+      y: 166,
+      child: [
+        Object{
+          id: "startmenurectangle05",
+          width: "51%",
+          height: "70%",
+          x: 0,
+          y: 176,
+          name: "StartMenu",
+          bottom: 0,
+          right: 0,
+          left: 0,
+          top: 0,
+          modelIf: "<#startMenuShowed#>"
+        }
+      ],
+      bottom: 41,
+      enterActiveClass: "animated slideInUp",
+      leaveActiveClass: "animated slideOutDown"
+    }
+  ]
+},

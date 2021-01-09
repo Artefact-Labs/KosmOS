@@ -1,0 +1,361 @@
+
+Item{
+  id: "item0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  child: [
+    Rectangle{
+      id: "rectangle0",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      color: "<#barColor#>",
+      opacity: 0.5
+    },
+    Row{
+      id: "rowitem04",
+      width: "auto",
+      height: 100,
+      x: 0,
+      y: 100,
+      child: [
+        Button{
+          id: "buttonitem03",
+          width: 49,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          onlyIcon: true,
+          flat: true,
+          icon: "ion-md-planet",
+          minHeight: 0,
+          minWidth: 0,
+          class: [
+            "kosmos_hover"
+          ],
+          onClicked: "<#togelSMenu#>"
+        },
+        TextField{
+          id: "textfieldrowitem043",
+          width: 342,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          mode: "solo",
+          flat: true,
+          prependIcon: "ion-ios-search",
+          placeholder: "Search",
+          class: [
+            "noBorderInput"
+          ]
+        },
+        Button{
+          id: "buttonitem033",
+          width: 49,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          onlyIcon: true,
+          flat: true,
+          icon: "ion-md-disc",
+          minHeight: 0,
+          minWidth: 0
+        },
+        Button{
+          id: "buttonitem0334",
+          width: 49,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          onlyIcon: true,
+          flat: true,
+          icon: "ion-ios-apps",
+          minHeight: 0,
+          minWidth: 0
+        }
+      ],
+      top: 0,
+      bottom: 0
+    },
+    Row{
+      id: "rowitem05",
+      width: "auto",
+      height: 100,
+      top: 0,
+      bottom: 0,
+      right: 12,
+      child: [
+        Button{
+          id: "buttonrowitem051",
+          width: 20,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          flat: true,
+          onlyIcon: true,
+          icon: "ion-ios-arrow-up",
+          fontSize: 20,
+          minWidth: 0,
+          minHeight: 0
+        },
+        Button{
+          id: "buttonrowitem0515",
+          width: 32,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          flat: true,
+          onlyIcon: true,
+          icon: "ion-ios-battery-charging",
+          fontSize: 20,
+          minWidth: 0,
+          minHeight: 0
+        },
+        Button{
+          id: "buttonrowitem05156",
+          width: 32,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          flat: true,
+          onlyIcon: true,
+          icon: "ion-md-wifi",
+          fontSize: 20,
+          minWidth: 0,
+          minHeight: 0
+        },
+        Button{
+          id: "buttonrowitem051567",
+          width: 32,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          flat: true,
+          onlyIcon: true,
+          icon: "ion-ios-volume-high",
+          fontSize: 20,
+          minWidth: 0,
+          minHeight: 0
+        },
+        Item{
+          id: "itemrowitem0554",
+          width: 49,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          child: [
+            Text{
+              id: "textitemrowitem05543",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              value: "ENG",
+              horizontalAlign: "center",
+              verticalAlign: "center",
+              fontFamily: "Calibri",
+              fontSize: 15
+            },
+            MouseArea{
+              id: "mouseareaitemrowitem0555",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              ripple: true,
+              cursor: "pointer"
+            }
+          ]
+        },
+        Item{
+          id: "itemrowitem0514",
+          width: 60,
+          height: 100,
+          x: 0,
+          child: [
+            Column{
+              id: "columnrowitem053",
+              width: 60,
+              height: 100,
+              x: 0,
+              child: [
+                Text{
+                  id: "textcolumnrowitem0531",
+                  width: 100,
+                  height: "auto",
+                  y: 0,
+                  value: "01:17",
+                  fontSize: 12,
+                  horizontalAlign: "center",
+                  left: 0,
+                  right: 0,
+                  textO: true,
+                  textOverflow: "ellipsis"
+                },
+                Text{
+                  id: "textcolumnrowitem05312",
+                  width: 100,
+                  height: "auto",
+                  y: 0,
+                  value: "01:17",
+                  fontSize: 12,
+                  horizontalAlign: "center",
+                  left: 0,
+                  right: 0,
+                  textO: true,
+                  textOverflow: "ellipsis"
+                }
+              ],
+              spacing: "space-around",
+              top: 0,
+              bottom: 0,
+              right: 0,
+              left: 0
+            },
+            MouseArea{
+              id: "mouseareaitemrowitem05143",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              ripple: true,
+              cursor: "pointer"
+            }
+          ],
+          top: 0,
+          bottom: 0
+        },
+        Item{
+          id: "itemrowitem055",
+          width: 49,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          child: [
+            Icon{
+              id: "iconitemrowitem0551",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              iconName: "ion-md-chatboxes",
+              size: 23
+            },
+            Rectangle{
+              id: "rectangleitemrowitem0553",
+              width: 16,
+              height: 16,
+              right: 5,
+              bottom: 5,
+              color: "transparent",
+              border: 1,
+              radius: 10,
+              child: [
+                Text{
+                  id: "textrectangleitemrowitem05531",
+                  width: 100,
+                  height: 100,
+                  x: 0,
+                  y: 0,
+                  right: 0,
+                  left: 0,
+                  top: 0,
+                  bottom: 0,
+                  value: "1",
+                  horizontalAlign: "center",
+                  verticalAlign: "center",
+                  bold: true
+                }
+              ]
+            },
+            MouseArea{
+              id: "mouseareaitemrowitem0555",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              ripple: true,
+              cursor: "pointer"
+            }
+          ]
+        }
+      ]
+    },
+    Item{
+      id: "itemitem08",
+      width: 6,
+      height: 100,
+      x: 1106,
+      y: 100,
+      child: [
+        Rectangle{
+          id: "rectangleitemitem083",
+          width: 1,
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          opacity: 0.6
+        },
+        MouseArea{
+          id: "mouseareaitemitem083",
+          width: 100,
+          height: 100,
+          x: 0,
+          y: 0,
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 0,
+          ripple: true,
+          cursor: "pointer",
+          opacity: 1
+        }
+      ],
+      right: 0,
+      top: 0,
+      bottom: 0
+    }
+  ],
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0
+},

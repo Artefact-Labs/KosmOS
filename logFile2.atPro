@@ -1,0 +1,52 @@
+{
+ "type": "file",
+ "name": "MenuBox.at",
+ "iconA": "at",
+ "designState": {
+  "main_at": {
+   "height": 687,
+   "width": 1102,
+   "dark": false
+  },
+  "Explorer_at": {
+   "height": 690,
+   "width": 1116,
+   "dark": false
+  },
+  "TaskBar_at": {
+   "height": 39,
+   "width": 1112,
+   "dark": false
+  },
+  "StartMenu_at": {
+   "height": 478,
+   "width": 728,
+   "dark": false
+  },
+  "HoverItem_at": {
+   "height": 431,
+   "width": 500,
+   "dark": false
+  },
+  "ImageMenuBox_at": {
+   "height": 86,
+   "width": 109,
+   "dark": false
+  },
+  "LogoMenuBox_at": {
+   "height": 94,
+   "width": 129,
+   "dark": false
+  },
+  "TextMenuBox_at": {
+   "height": 112,
+   "width": 109,
+   "dark": false
+  },
+  "FlowMenuBox_at": {
+   "height": 207,
+   "width": 407,
+   "dark": false
+  }
+ }
+}

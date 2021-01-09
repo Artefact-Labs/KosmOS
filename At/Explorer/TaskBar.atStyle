@@ -1,0 +1,11 @@
+.v-btn:not(.v-btn--round).v-size--default{
+	height: unset;
+}
+.noBorderInput{
+	border-radius: 0;
+}
+.kosmos_hover{
+		&:hover{
+			color: #265b92a6;
+		}
+}

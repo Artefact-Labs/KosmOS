@@ -1,0 +1,2 @@
+Property barColor = "#d4d4d4"
+Property Function togelSMenu = (() =>{})

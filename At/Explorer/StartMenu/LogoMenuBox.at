@@ -1,0 +1,75 @@
+
+Item{
+  id: "item0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    NetworkImage{
+      id: "networkimageitem01",
+      width: "auto",
+      height: "45%",
+      source: "<#src#>",
+      verticalCenter: 0,
+      horizontalCenter: 0,
+      fillMode: "preserveAspectFit"
+    },
+    Rectangle{
+      id: "rectangleitem05",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      color: "transparent",
+      opacity: 0.3,
+      border: "<#hoverBorder#>",
+      borderColor: "#fff"
+    },
+    Text{
+      id: "textitem07",
+      width: 100,
+      height: "auto",
+      bottom: 10,
+      left: 10,
+      right: 10,
+      opacity: 1,
+      value: "<#titel#>",
+      color: "#000",
+      horizontalAlign: "center"
+    },
+    MouseArea{
+      id: "mouseareaitem09",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      tooltipLabel: "<#tooltip#>",
+      event: [
+        MouseEvent{
+          section: "mouse",
+          name: "mouseover",
+          action: "<#enableHover#>"
+        },
+        MouseEvent{
+          section: "mouse",
+          name: "mouseout",
+          action: "<#disableHover#>"
+        }
+      ],
+      onClicked: "<#click#>"
+    }
+  ]
+},

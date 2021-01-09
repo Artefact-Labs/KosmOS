@@ -1,0 +1,18 @@
+Data leftExpended = false
+	
+Computed leftWidth () { 
+	return (this.leftExpended? 262 : 42)
+}
+Computed leftElevation () { 
+	return (this.leftExpended? 2 : 0)
+}
+
+Method togelLeftExpended () { 
+	this.leftExpended = !this.leftExpended
+}
+Method showLeftPanel () { 
+	this.leftExpended = true
+}
+Method hideLeftPanel () { 
+	this.leftExpended = false
+}

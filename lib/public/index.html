@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <!--
+      Please don' t remove this.
+      Artefact will use it to inject code
+     -->
+  <meta content="<= inject_keywords =>" name="keywords">
+  <meta content="<= inject_description =>" name="description">
+
+  <meta name="author" content="<= inject_author =>">
+
+  <meta property="og:title" content="<%= htmlWebpackPlugin.options.title %>">
+  <meta property="og:description" content="<= inject_og_description =>">
+  <meta property="og:image" content="<%= BASE_URL %>img/favicon-196.png">
+  <meta property="og:url" content="<= inject_og_url =>">
+
+  <meta name="twitter:title" content="<%= htmlWebpackPlugin.options.title %>">
+  <meta name="twitter:description" content="<= inject_twitter_description =>">
+  <meta name="twitter:image" content="<%= BASE_URL %>img/favicon-196.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ==================================================================================== -->
+
+  <title><%= htmlWebpackPlugin.options.title %></title>
+
+  <link rel="icon" href="<%= BASE_URL %>img/favicon-196.png">
+  <link rel="icon" type="image/png" href="img/favicon-196.png">
+
+  <link rel="icon" type="image/png" sizes="196x196" href="img/favicon-196.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/apple-icon-167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120.png">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!--
+      Please don' t remove this.
+      Artefact will use it to inject code
+     -->
+  <!-- <= inject_link => -->
+
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+
+
+  <!--
+      Please don' t remove this.
+      Artefact will use it to inject code
+     -->
+  <!-- <= inject_script => -->
+</body>
+
+</html>

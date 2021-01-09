@@ -1,0 +1,16 @@
+Property src = "https://picsum.photos/200"
+Property titel = "description"
+Property tooltip = this.titel
+Property Function click = (()=>{})
+	
+Data hovered = false
+	
+Method enableHover () { 
+	this.hovered = true
+}
+Method disableHover () { 
+	this.hovered = false
+}
+Computed hoverBorder () { 
+	return (this.hovered? 3 : 0)
+}

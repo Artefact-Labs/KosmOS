@@ -1,0 +1,11 @@
+Property titel = "Titel"
+	
+Data editName = false
+	
+Method switchToEdit () { 
+	this.editName = true
+}
+	
+Method disableEdit () { 
+	this.editName = false
+}
