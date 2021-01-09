@@ -1,7 +1,7 @@
 Property src = "https://picsum.photos/200"
 Property subSrc = "https://picsum.photos/200"
 Property titel = "description"
-Property tooltip = this.titel
+Property tooltip = ""
 Property Function click = (()=>{})
 	
 Data hovered = false

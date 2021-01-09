@@ -1,6 +1,6 @@
 Property titel = "description"
 Property value = "value"
-Property tooltip = this.titel
+Property tooltip = ""
 Property Function click = (()=>{})
 	
 Data hovered = false
@@ -12,5 +12,5 @@ Method disableHover () {
 	this.hovered = false
 }
 Computed hoverBorder () { 
-	return (this.hovered? 3 : 0)
+	return (this.hovered? 5 : 0)
 }

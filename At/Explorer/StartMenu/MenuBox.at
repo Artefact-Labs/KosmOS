@@ -2,13 +2,11 @@
 Item{
   id: "item0",
   width: 100,
-  height: 100,
+  height: "auto",
   x: 0,
-  y: 0,
   right: 0,
   left: 0,
   top: 0,
-  bottom: 0,
   child: [
     Item{
       id: "itemitem02",
@@ -17,6 +15,33 @@ Item{
       x: 0,
       y: 0,
       child: [
+        Text{
+          id: "textitemitem023",
+          width: 100,
+          height: 100,
+          x: 0,
+          y: 0,
+          right: 10,
+          left: 10,
+          top: 0,
+          bottom: 0,
+          value: "<#titel#>",
+          verticalAlign: "center",
+          fontSize: 15,
+          modelIf: "<#!editName#>"
+        },
+        MouseArea{
+          id: "mouseareaitemitem025",
+          width: 100,
+          height: 100,
+          x: 0,
+          y: 0,
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 0,
+          onClicked: "<#switchToEdit#>"
+        },
         Rectangle{
           id: "rectangleitem01",
           width: 100,
@@ -74,32 +99,6 @@ Item{
           top: 0,
           bottom: 0,
           modelIf: "<#editName#>"
-        },
-        Text{
-          id: "textitemitem023",
-          width: 100,
-          height: 100,
-          x: 0,
-          y: 0,
-          right: 10,
-          left: 10,
-          top: 0,
-          bottom: 0,
-          value: "<#titel#>",
-          verticalAlign: "center",
-          fontSize: 15
-        },
-        MouseArea{
-          id: "mouseareaitemitem025",
-          width: 100,
-          height: 100,
-          x: 0,
-          y: 0,
-          right: 0,
-          left: 0,
-          top: 0,
-          bottom: 0,
-          onClicked: "<#switchToEdit#>"
         }
       ],
       left: 0,
@@ -108,14 +107,14 @@ Item{
     Slot{
       id: "slotitem03",
       width: 100,
-      height: 100,
+      height: "auto",
       x: 0,
-      y: 0,
       name: "content",
       right: 0,
       left: 0,
       top: 33,
       bottom: 0
     }
-  ]
+  ],
+  bottom: 0
 },

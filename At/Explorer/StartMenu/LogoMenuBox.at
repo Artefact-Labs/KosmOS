@@ -1,5 +1,5 @@
 
-Item{
+Card{
   id: "item0",
   width: 100,
   height: 100,
@@ -9,6 +9,8 @@ Item{
   left: 0,
   top: 0,
   bottom: 0,
+	radius: 0,
+	elevation: "<#(hovered? 1 : 0)#>",
   child: [
     NetworkImage{
       id: "networkimageitem01",

@@ -38,9 +38,99 @@ Item{
       height: 100,
       top: 0,
       bottom: 0,
-      left: 270,
+      left: 325,
       right: 0,
-      color: "transparent"
+      color: "transparent",
+      child: [
+        Grid{
+          id: "gridscrollareaitem071",
+          width: "auto",
+          height: "auto",
+          y: 10,
+          left: 10,
+          right: 10,
+          child: [
+            Col{
+              id: "colgridscrollareaitem0711",
+              width: 100,
+              height: {
+                default: 140,
+                lg: 200
+              },
+              col_real_index: 1,
+              child: [
+                Object{
+                  id: "menuboxcolgridscrollareaitem07111",
+                  width: 100,
+                  height: 200,
+                  x: 0,
+                  y: 0,
+                  name: "MenuBox",
+                  right: 0,
+                  left: 0,
+                  top: 0,
+                  bottom: 0,
+                  child: [
+                    SlotTemplate{
+                      id: "slottemplatemenuboxcolgridscrollareaitem071111",
+                      width: 100,
+                      x: 0,
+                      y: 0,
+                      name: "content",
+                      child: [
+                        Flow{
+                          id: "flowslottemplatemenuboxcolgridscrollareaitem0711111",
+                          width: 100,
+                          height: "auto",
+                          x: 0,
+                          y: 0,
+                          spacing: "space-between",
+                          right: 0,
+                          left: 0,
+                          top: 0,
+                          child: [
+                            Object{
+                              id: "textmenuboxflowslottemplatemenuboxcolgridscrollareaitem07111111",
+                              width: 100,
+                              height: 100,
+                              x: 0,
+                              y: 0,
+                              name: "TextMenuBox",
+                              bind_titel: "Samstag",
+                              bind_value: "9"
+                            },
+                            Object{
+                              id: "logomenuboxflowslottemplatemenuboxcolgridscrollareaitem07111113",
+                              width: 230,
+                              height: 100,
+                              x: 0,
+                              y: 0,
+                              name: "LogoMenuBox",
+                              bind_titel: "Mail"
+                            },
+                            Object{
+                              id: "logomenuboxflowslottemplatemenuboxcolgridscrollareaitem071111133",
+                              width: 50,
+                              height: 50,
+                              x: 0,
+                              y: 0,
+                              name: "LogoMenuBox",
+                              bind_titel: ""
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              cols: 12,
+              modelFor: "<#5#>",
+              xl: 6
+            }
+          ]
+        }
+      ]
     },
     Item{
       id: "left",
