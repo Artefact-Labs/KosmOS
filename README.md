@@ -23,7 +23,7 @@
   <p align="center">
     An operating system working thanks to web technologies. (clone of Windows 10).
     <br />
-    <a href="https://doc.artefact-labs.com"><strong>Explore the Artefact's docs »</strong></a>
+    <a href="https://doc.artefact-labs.com" target="_blank"><strong>Explore the Artefact's docs »</strong></a>
     <br />
     <br />
     <a href="https://awesome.artefact-labs.com/kosmos">View Demo</a>
